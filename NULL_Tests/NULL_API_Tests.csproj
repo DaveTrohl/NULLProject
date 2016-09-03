@@ -55,6 +55,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="LinkedInController_Tests.cs" />
     <Compile Include="TestController_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FacebookController_Tests.cs" />

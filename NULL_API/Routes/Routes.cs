@@ -7,5 +7,8 @@
 
         // Facebook Routes
         public const string GetFacebookUser = "api/1/facebook/user/{name}";
+
+        // LinkedIn Routes
+        public const string GetLinkedInUser = "api/1/linkedin/user/{name}";
     }
 }
