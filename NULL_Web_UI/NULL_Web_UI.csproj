@@ -66,12 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App\Controllers\Home\Home.html" />
-    <Content Include="App\Controllers\Home\HomeController.js" />
-    <Content Include="App\Controllers\PersonForm\PersonForm.html" />
-    <Content Include="App\Controllers\PersonForm\PersonFormController.js" />
-    <Content Include="App\Route.js" />
+    <Content Include="App\Home\Home.html" />
+    <Content Include="App\main.js" />
+    <Content Include="App\PersonForm\PersonFormController.js" />
     <Content Include="packages.config" />
+    <Content Include="App\PersonForm\PersonForm.html" />
     <Content Include="Resources\logo.ico" />
     <Content Include="Scripts\Angular\angular-route.min.js" />
     <Content Include="Scripts\Angular\angular.min.js.map" />
