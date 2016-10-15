@@ -1,27 +1,20 @@
 ﻿<!DOCTYPE html>
-<html ng-app>
+<html>
     <head>
         <title>Project NULL is a go!</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         
         <link rel="stylesheet" href="Scripts/Bootstrap/css/bootstrap.min.css"/>
-        
-        <script src="Scripts/head.load.min.js"></script>
-        <script src="Assets/js/boot.js"></script>
+        <link rel="icon" href="Resources/logo.ico" />
     </head>
+
     <body>
-        <div class="form-control">
-            <h4>
-                Hello World
-            </h4>
-    
-            Enter numbers to multiply:
-            <input type="number" ng-model="Num1" value="1" />
-            x
-            <input type="number" ng-model="Num2" value="2" />
-            =
-            <span>{{Num1 * Num2}}</span>
+        <div ng-app="nullApp">
+            <ng-view></ng-view>
         </div>
+    
+        <script type="text/javascript" src="Scripts/head.load.min.js"></script>
+        <script type="text/javascript" src="Assets/js/boot.js"></script>
     </body>
 </html>

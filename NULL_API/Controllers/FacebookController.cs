@@ -2,6 +2,7 @@
 using System.Net;
 using System.Web.Http;
 using NULL_API.Models;
+using NULL_API.WebApiResources;
 using Swashbuckle.Swagger.Annotations;
 
 namespace NULL_API.Controllers
@@ -15,14 +16,7 @@ namespace NULL_API.Controllers
         {
             try
             {
-                UserProfile profile = new UserProfile
-                {
-                    Name        = name,
-                    Address     = "123 Fake Street.",
-                    DateOfBirth = DateTime.UtcNow.AddYears(-25),
-                };
-
-                return Ok(profile);
+                return Ok(FacebookResources.GetFacebookProfile(name));
             }
             catch (Exception ex)
             {
